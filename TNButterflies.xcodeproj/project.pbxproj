@@ -13,6 +13,8 @@
 		0B76EC0C20F8BDFB009AE492 /* TNButterflies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B76EC0A20F8BDFB009AE492 /* TNButterflies.xcdatamodeld */; };
 		0B76EC0E20F8BDFF009AE492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B76EC0D20F8BDFF009AE492 /* Assets.xcassets */; };
 		0B76EC1120F8BDFF009AE492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B76EC0F20F8BDFF009AE492 /* LaunchScreen.storyboard */; };
+		0B76EC1920F8BEEC009AE492 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B76EC1820F8BEEC009AE492 /* TableViewCell.swift */; };
+		0B76EC1B20F8C09E009AE492 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B76EC1A20F8C09E009AE492 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0B76EC0D20F8BDFF009AE492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B76EC1020F8BDFF009AE492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B76EC1220F8BDFF009AE492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B76EC1820F8BEEC009AE492 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0B76EC1A20F8C09E009AE492 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0B76EC0F20F8BDFF009AE492 /* LaunchScreen.storyboard */,
 				0B76EC1220F8BDFF009AE492 /* Info.plist */,
 				0B76EC0A20F8BDFB009AE492 /* TNButterflies.xcdatamodeld */,
+				0B76EC1820F8BEEC009AE492 /* TableViewCell.swift */,
+				0B76EC1A20F8C09E009AE492 /* TableViewController.swift */,
 			);
 			path = TNButterflies;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B76EC0620F8BDFB009AE492 /* ViewController.swift in Sources */,
+				0B76EC1920F8BEEC009AE492 /* TableViewCell.swift in Sources */,
 				0B76EC0C20F8BDFB009AE492 /* TNButterflies.xcdatamodeld in Sources */,
+				0B76EC1B20F8C09E009AE492 /* TableViewController.swift in Sources */,
 				0B76EC0420F8BDFB009AE492 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
